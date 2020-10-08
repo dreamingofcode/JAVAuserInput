@@ -10,7 +10,7 @@ public class WordComparisonCheck {
         System.out.println("Type in the word \" PIZZA \" please");
         word= input.next();
 
-        yes= word.equals("PIZZA");
+        yes= "PIZZA".equals(word);
         no= ! word.equals("PIZZA");
 
         System.out.println("You typed what was requested and you're an obidient person: "+yes);
