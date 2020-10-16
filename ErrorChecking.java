@@ -9,7 +9,7 @@ public class ErrorChecking {
 
 
         while(x<0){
-            System.out.println("\n0I won't take the square root of a negative");
+            System.out.println("\n-4I won't take the square root of a negative");
             System.out.println("I demand a new number: ");
             x=input.nextDouble();
 
